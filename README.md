@@ -1,6 +1,6 @@
-# CSCI 222 – In-Class Code Examples
+# CISP 1010 – In-Class Code Examples
 
-Welcome to the official repository for in-class code examples for CSCI 222.
+Welcome to the official repository for in-class code examples for CISP 1010.
 This repository contains the code written and discussed during lectures.
 Use
 it as a reference to reinforce your understanding of object-oriented
@@ -39,7 +39,7 @@ main".
 
 #### Option B: Clone Locally (Advanced)
 ```bash
-git clone https://github.com/utm-lowe/CSCI222-Fall25-Examples.git
+git clone https://github.com/gymmyp1/CISP1010-Fall2025-Examples.git
 cd REPO_NAME
 ```
 
@@ -52,7 +52,7 @@ updated.
 
 #### One-Time Setup (Add a remote for my repo)
 ```bash
-git remote add upstream https://github.com/utm-lowe/CSCI222-Fall25-Examples.git
+git remote add upstream https://github.com/gymmyp1/CISP1010-Fall2025-Examples.git
 ```
 
 #### To Fetch and Merge Updates:
@@ -79,5 +79,3 @@ See the LICENSE file for full details.
 ---
 
 Happy coding!
-
-— Dr. Lowe
