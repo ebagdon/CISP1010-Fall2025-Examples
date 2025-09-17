@@ -14,12 +14,17 @@ int main() {
     cout.setf(ios::fixed); //don't display in scientific notation
     //cout.setf(ios::showpoint); //show the decimal point
 
-    if(hours <= 40) {
-        cout << "You worked regular amount of hours ^_^" << endl;
-        salary = hours * rate;
+    if(hours < 0) {
+        cout << "Number of hours needs to be equal or greater than 0." << endl;
+        return 0;
     } else {
-        cout << "You worked overtime." << endl;
-        salary = 40*rate + (hours - 40)*rate*1.5;
+        if(hours <= 40) {
+            cout << "You worked regular amount of hours ^_^" << endl;
+            salary = hours * rate;
+        } else {
+            cout << "You worked overtime." << endl;
+            salary = 40*rate + (hours - 40)*rate*1.5;
+        }
     }
 
     cout << "Your calculated salary: $" << salary << endl;
