@@ -1,23 +1,11 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main()
 {
-    bool value = false;
-    for (int i = 0; i < 20; i++)
-    {
-        if (value)
-        {
-            cout << "True. " << "Iteration: " << i << endl;
-            value = false;
-        }
-        else
-        {
-            cout << "False. " << "Iteration: " << i << endl;
-            value = true;
-        }
-    }
+    cout << 2.71828 * 2.71828 << endl;
 
     return 0;
 }
